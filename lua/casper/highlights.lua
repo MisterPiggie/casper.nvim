@@ -14,6 +14,7 @@ function M.apply(colors)
     hl(0, "WarningMsg", { fg = colors.palette[11]})
     hl(0, "Visual",   { bg = colors["selection-background"], fg = colors["selection-foreground"]})
     hl(0, "@constant.builtin", { fg = colors.foreground })
+    hl(0, "@function.builtin", { fg = colors.foreground })
     hl(0, "@variable",       { fg = colors.foreground })
     hl(0, "@string.escape",       { fg = colors.palette[12]})
 
