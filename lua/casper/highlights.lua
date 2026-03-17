@@ -21,7 +21,7 @@ function M.apply(colors)
 
     hl(0, "@function.call",  { fg = colors.foreground })
     hl(0, "DiagnosticUnderlineError", { undercurl = true, sp = colors.palette[1] })
-    hl(0, "Special", { undercurl = true, sp = colors.palette[4] })
+    hl(0, "Special", { fg = colors.palette[4] })
     hl(0, "DiagnosticUnderlineWarn",  { undercurl = true, sp = colors.palette[11]})
     hl(0, "@constructor", { link = "Normal" })
     hl(0, "Identifier", { link = "Normal" })
