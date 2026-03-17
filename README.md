@@ -12,7 +12,7 @@ Neovim plugin that automatically applies your Ghostty terminal theme to Neovim.
 ### lazy.nvim
 ```lua
 {
-    "username/casper.nvim",
+    "MisterPiggie/casper.nvim",
     config = function()
         require("casper").setup()
     end,
