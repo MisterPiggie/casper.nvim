@@ -3,7 +3,7 @@ local hl = vim.api.nvim_set_hl
 
 function M.apply(colors)
     hl(0, "Normal",   { fg = colors.foreground , bg = colors.background })
-    hl(0, "Comment",  { fg = colors.palette[15], italic = true })
+    hl(0, "Comment",  { fg = "#D3D3D3", italic = true })
     hl(0, "String",   { fg = colors.palette[10]})
     hl(0, "Keyword",  { fg = colors.palette[5] })
     hl(0, "Operator",  { fg = colors.palette[5] })
