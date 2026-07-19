@@ -2,6 +2,10 @@
 
 Neovim plugin that automatically applies your Ghostty terminal theme to Neovim.
 
+## Usage example
+
+![gif](https://github.com/MisterPiggie/casper.nvim/blob/main/casper.gif)
+
 ## Requirements
 
 - Neovim 0.8+
